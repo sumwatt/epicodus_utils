@@ -7,5 +7,6 @@ echo "Updating bash profile";
 rm ~/.bash_profile
 cp .bash_profile ~/.bash_profile
 echo "\n"
-"Please copy the following key to your github account:\n"
+source ~/.bash_profile
+"Please copy the following key to your github account:\n\n"
 cat ~/.ssh/id_rsa.pub
